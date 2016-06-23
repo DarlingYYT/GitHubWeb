@@ -1,0 +1,241 @@
+#user{
+	background-color:#f0f0f0;
+	font-size:12px;
+	color:#333;
+	display:block;
+}
+
+body{
+	width:1400px;
+	height:700px;
+	font-family:Tahoma,"\5b8b\4f53",Arial,Helvetica,Arial,sans-serif
+}
+#wrap{
+	width:840px;
+	height:500px;
+	background-color:#fff;
+	border:1px #e6e6e6 solid;
+	line-height:20px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-420px;
+	margin-top:-280px;	
+	
+}
+
+.title {
+	height:60px;
+	background-color:#fafafa;
+	float:top;
+	padding:15px 15px 30px 30px ;
+	border-bottom:1px #e6e6e6 solid;
+
+}
+
+.content{
+	float:top;
+	padding:40px 40px 50px 50px ;
+	border-bottom:1px #e6e6e6 dashed;
+	height:200px;
+
+}
+
+.save{
+	float:top;
+	padding:40px 40px 50px 50px ;
+}
+
+h1{
+	font-size:24.5px;
+	font-family:"Microsoft YaHei";
+	font-weight:400;
+	line-height:small;	
+}
+
+.tips{
+	color:#fff;
+	background-color:#ff7f00;
+	font-family:Arial;
+	font-size:12px;
+	line-height:16px;
+	padding:2px 4px;
+	vertical-align:middle;
+	position:relative;
+	margin-left:25px;
+	font-style:normal;
+}
+
+p{
+	display:block;
+}
+
+.subtitle{
+	color:#999;
+}
+
+.first-line{
+	width:800px;
+	height:40px;
+	padding:0;
+	float:top;
+
+}
+.firsthidden-line{
+	width:800px;
+	height:30px;
+	padding:0;
+	float:top;
+
+}
+
+.second-line{
+	width:800px;
+	height:40px;
+	margin:0;
+	padding:0;
+	float:top;
+}
+
+.secondhidden-line{
+	width:800px;
+	height:30px;
+	padding:0;
+	float:top;
+
+}
+
+.third-line{
+	width:800px;
+	height:40px;
+	margin:0;
+	padding:0;
+	float:top;
+}
+.first-column {
+
+	height:100%;
+	margin-right:20px;
+	float:left;
+	clear:right
+}
+
+.second-column {
+
+	height:100%;
+	margin-right:20px;
+	float:left;
+	clear:right
+}
+
+.third-column {
+
+	height:100%;
+	margin-right:20px;
+	float:left;
+	clear:right
+}
+
+.forth-column {
+
+	height:100%;
+	margin-right:20px;
+	float:left;
+	clear:right
+}
+
+.nameerror{
+	height:100%;
+	width:150px;
+	margin-left:10px;
+	margin-right:20px;
+	float:left;
+	clear:right
+}
+
+.numbererror{
+	position:relative;
+	top:0px;
+	left:170px;
+	height:100%;
+	width:120px;
+	margin-right:20px;
+	float:left;
+	clear:right
+}
+
+.emailerror{
+	position:relative;
+	top:0px;
+	left:190px;
+	height:100%;
+	width:120px;
+	margin-right:20px;
+	float:left;
+	clear:right
+}
+
+span{
+	
+	font-size:12px;
+}
+input{
+	height:30px;
+	width:120px;
+	font-size:16px;
+	padding:2px 8px;
+
+}
+
+input[class=Email]{
+	width:150px;
+	
+}
+
+
+
+select{
+	height:37px;
+	width:70px;
+	font-size:16px;
+	padding:2px 8px;
+	color:#999
+}
+
+select[class=birth-year]{
+	width:140px;
+}
+
+select[class=city]{
+	width:100px;
+}
+
+select[class=education]{
+	width:100px;
+}
+
+button{
+	margin-right:7px;
+	height:37px;
+	width:60px;
+	font-size:16px;
+	padding:2px 8px;	
+	color:#3d9ccc;
+	text-align:center;
+	border:1px #d2edfa solid;
+	background:#fff;
+}
+
+input[type=submit]{
+	height:34px;
+	color:#fff;
+	background:#3d9ccc;
+	border:1px #3b97c4 solid;
+	text-align:center;
+}
+
+
+
+
+
+

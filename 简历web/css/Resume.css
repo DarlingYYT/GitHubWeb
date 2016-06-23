@@ -1,0 +1,348 @@
+#user{
+	background-color:#f0f0f0;
+	font-size:14px;
+	color:#666;
+	display:block;
+}
+
+body{
+	width:1400px;
+	height:1800px;
+	font-family:Tahoma,"\5b8b\4f53",Arial,Helvetica,Arial,sans-serif
+}
+#wrap{
+	width:840px;
+	height:auto;
+	background-color:#fff;
+	border:1px #e6e6e6 solid;
+	line-height:20px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-420px;
+	margin-top:-280px;	
+	
+}
+
+.title {
+	height:60px;
+	background-color:#fafafa;
+	float:top;
+	padding:15px 15px 30px 30px ;
+	border-bottom:1px #e6e6e6 solid;
+
+}
+
+.part1,.part2 ,.part3,.part4,.part5{
+	float:top;
+	padding:20px 40px 40px 40px ;
+	border-bottom:1px #c9f dashed;
+}
+
+.part1{
+	height:170px;
+}
+
+.part2{
+	height:250px;
+}
+
+.part3{
+	height:380px;
+}
+
+.part4,.part5{
+	height:auto;
+}
+
+.tag1,.tag2,.tag3,.tag4,.tag5{
+	float:top;
+	height:28px;
+	border-bottom:1px #e6e6e6 dashed;
+
+}
+
+h2{
+	font-size:21px;
+	font-family:"Microsoft YaHei";
+	font-weight:200;
+	color:#336
+
+	
+}
+
+
+.content1,.content2,.content3,.content4,.content5{
+	padding-top:20px;
+	float:top;
+	height:auto;
+}
+
+.save{
+	float:top;
+	padding:40px 40px 50px 50px ;
+	font-family:"Microsoft YaHei";
+}
+
+h1{
+	font-size:26px;
+	font-family:"Microsoft YaHei";
+	font-weight:400;
+	line-height:small;	
+	color:#333;
+}
+
+.tips{
+	color:#fff;
+	background-color:#ff7f00;
+	font-family:Arial;
+	font-size:12px;
+	line-height:16px;
+	padding:2px 4px;
+	vertical-align:middle;
+	position:relative;
+	margin-left:25px;
+	font-style:normal;
+}
+
+p{
+	display:block;
+}
+
+.subtitle{
+	padding-left:20px;
+	color:#999;
+}
+
+.first-line{
+	width:800px;
+	height:40px;
+	padding:0;
+	float:top;
+
+}
+.firsthidden-line{
+	width:800px;
+	height:30px;
+	padding:0;
+	float:top;
+
+}
+
+.second-line{
+	width:800px;
+	height:40px;
+	margin:0;
+	padding:0;
+	float:top;
+}
+
+.secondhidden-line{
+	width:800px;
+	height:30px;
+	padding:0;
+	float:top;
+}
+
+.thirdhidden-line{
+	width:800px;
+	height:30px;
+	padding:0;
+	float:top;
+}
+
+.forthhidden-line{
+	width:800px;
+	height:130px;
+	padding:0;
+	float:top;
+}
+
+.sisth-line{
+	width:800px;
+	height:40px;
+	margin:0;
+	padding:0;
+	float:top;
+}
+
+.third-line{
+	width:800px;
+	height:40px;
+	margin:0;
+	padding:0;
+	float:top;
+}
+
+.forth-line{
+	width:800px;
+	height:40px;
+	margin:0;
+	padding:0;
+	float:top;
+}
+
+.fifth-line{
+	width:800px;
+	height:40px;
+	margin:0;
+	padding:0;
+	float:top;
+}
+
+.first-column {
+
+	height:100%;
+	margin-right:30px;
+	float:left;
+	clear:right
+}
+
+.second-column {
+
+	height:100%;
+	margin-right:30px;
+	float:left;
+	clear:right
+}
+
+.third-column {
+
+	height:100%;
+	margin-right:30px;
+	float:left;
+	clear:right
+}
+
+.forth-column {
+
+	height:100%;
+	margin-right:30px;
+	float:left;
+	clear:right
+}
+
+.fifth-column {
+
+	height:100%;
+	margin-right:30px;
+	float:left;
+	clear:right
+}
+
+
+.nameerror{
+	height:100%;
+	width:150px;
+	margin-left:10px;
+	margin-right:20px;
+	float:left;
+	clear:right
+}
+
+.numbererror{
+	position:relative;
+	top:0px;
+	left:170px;
+	height:100%;
+	width:120px;
+	margin-right:20px;
+	float:left;
+	clear:right
+}
+
+.emailerror{
+	position:relative;
+	top:0px;
+	left:250px;
+	height:100%;
+	width:120px;
+	margin-right:20px;
+	float:left;
+	clear:right
+}
+
+
+
+span{
+	
+	font-size:12px;
+}
+input{
+	height:30px;
+	width:120px;
+	font-size:16px;
+	padding:2px 8px;
+
+}
+
+label{
+	height:10px;
+	width:120px;
+	font-size:16px;
+}
+
+input[class=Email],input[class=tel-num]{
+	width:170px;
+}
+
+
+
+select{
+	height:37px;
+	width:130px;
+	font-size:16px;
+	padding:2px 8px;
+	color:#999
+}
+
+select[class=birth-year]{
+	width:118px;
+}
+
+
+button{
+	margin-right:7px;
+	height:37px;
+	width:60px;
+	font-size:16px;
+	padding:2px 8px;	
+	color:#3d9ccc;
+	text-align:center;
+	border:1px #d2edfa solid;
+	background:#fff;
+}
+
+input[type=submit]{
+	height:34px;
+	color:#fff;
+	background:#3d9ccc;
+	border:1px #3b97c4 solid;
+	text-align:center;
+}
+
+input[type=range]{
+	height:10px;
+	text-align:center;
+}
+
+input[type=checkbox]{
+	height:15px;
+	width:25px;
+	margin-left:10px;
+	text-align:center;
+	line-height:15px;
+}
+
+textarea{
+	margin-left:30px;
+	height:100px;
+	width:550px;
+	font-size:16px;
+	padding:2px 8px;
+}
+
+select[class=intern],select[class=project],select[class=corporation],select[class=game]{
+	width:210px;
+}
+

@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>IDcard</title>
+	<script type = "text/javascript" src = "js/IDcard.js"></script>
+	<link rel = "stylesheet" type = "text/css" href = "css/IDcard.css">
+</head>
+<body id = "user">
+<div id = "wrap">
+	<div class = "title">
+		<h1>
+			填写名片 让更多机会找到您
+			<i class = "tips">必填</i>
+		</h1>
+		<p class = "subtitle">
+			Update your name card to have more opportunities
+		</p>
+	</div>
+	<div class = "content">
+		<div class = "first-line">
+			<div class = "first-column">
+				<input type = "text" class = "name" placeholder="姓名" id = "name" onblur = "chkname()">
+			</div>
+			<div class = "second-column">
+				<select type = "hidden" class = "birth-year" id = "year" onfocus = "selyear()" >
+				<option>出生日期 / 年</option>
+				</select>
+			</div>
+			<div class = "third-column">
+				<select type = "hidden" class = "birth-month" id = "month" onfocus = "selmonth()" >
+				<option>月</option>
+				</select>
+			</div>
+			<div class = "forth-column">
+				<select type = "hidden" class = "birth-day" id = "day" onfocus = "selday()">
+				<option>日</option>
+				</select>
+			</div>
+		</div>
+		<div class = "firsthidden-line">
+			<div class = "nameerror">
+				<span id = "error1"></span>
+			</div>
+		</div>
+		<div class = "second-line">
+			<div class = "first-column">
+				<button class = "male" id = "male" onclick = "mstyle()">男</button>
+				<button class = "female" id = "female" onclick = "fstyle()">女</button>
+			</div>
+			<div class = "second-column">
+				<input type = "text" class = "tel-num" id = "num" placeholder="电话号码" onblur = "chknum()">
+			</div>
+			<div class = "third-column">
+				<input type = "text" class = "Email" id = "email" placeholder="邮箱" onblur = "chkemail()" >
+			</div>
+		</div>
+		<div class = "secondhidden-line">
+			<div class = "numbererror">
+				<span id = "error2"></span>
+			</div>
+			<div class = "emailerror">
+				<span id = "error3"></span>
+			</div>
+		</div>
+		<div class = "third-line">
+			<div class = "first-column">
+				<select type = "hidden" class = "city" id = "city" onfocus = "addcity()" >
+				<option>城市</option>
+				</select>
+			</div>
+			<div class = "second-column">
+				<select type = "hidden" class = "education" id = "edu" onfocus = "addedu()">
+				<option>学历</option>
+				</select>
+			</div>
+		</div>	
+	</div>
+	<div class = "save">
+		<input type = "submit" value = "保存名片" class = "savecard">
+	</div>
+</div>
+</body>
+</html>
