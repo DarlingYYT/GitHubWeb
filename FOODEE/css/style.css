@@ -1,0 +1,846 @@
+body{
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 2;
+  margin:0;
+  padding:0;
+}
+*{
+  margin:0;
+  padding:0;
+}
+a{
+	color:#000;
+  margin:10px;
+  font-size: 20px;
+  text-decoration: none;
+
+}
+
+a[class="foot"]{
+  color:white;
+}
+
+a[class="center"]{
+  font-family:'Comic Sans MS', cursive, sans-serif;
+  font-size:40px;
+  font-weight: bold;
+  color:#5e493a;
+  text-shadow: 1px 1px 1px;
+  margin:0 30px 0 30px;
+}
+
+#content {
+  position: relative;
+  z-index: 10;
+}
+
+#footer {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  padding: 5em 0;
+  z-index: 1;
+  font-size: 14px;
+  line-height: 1.5;
+
+}
+ 
+
+.nav{
+  position:relative;
+
+  margin:0 auto;
+  width:100%;
+    text-align: center;
+}
+
+#home {
+  min-height: 700px;
+
+}
+
+#home .flexslider .home-text {
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  margin-top: 100px;
+  text-align: center;
+}
+
+#home .flexslider .home-text h1 {
+  height:400px;
+  font-size: 300px;
+  font-weight: 500px;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+
+}
+ #home .flexslider .home-text h2 {
+
+  font-weight: 300px;
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: #fff;
+
+
+}
+
+#slide-image {
+  width:100%;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+
+}
+
+#about{
+  overflow:hidden;
+
+}
+
+#about .about-left{
+  width:50%;
+  float:left;
+
+
+}
+
+img[class="about"]{
+  width:100%;
+  height:100%;
+}
+#about .about-right{
+  width:50%;
+  float:right;
+  background:url("../images/wood_1.png");
+  padding-bottom: 100px;
+
+}
+
+
+#about .about-right h2{
+  text-align: center;
+  width:80%;
+  padding:20px 0 0 50px;
+  color:white;
+  font-style: italic;
+
+}
+
+#about .about-right p[class="1"]{
+  color:white;
+  text-align: left;
+  padding:15px 20px 0 50px;
+  color:#a99c92;
+  font-family:'Trebuchet MS', Helvetica, sans-serif;
+}
+
+span[class="firstchar"]{
+    font-style: italic;
+    font-weight: bold;
+    font-size:60px;
+    float:left;
+    line-height:60px;
+    position:relative;
+    top:-20px;
+    padding:4 10 3 0;
+
+}
+
+#about .about-right p[class="2"]{
+  font-family:Impact, Charcoal, sans-serif;
+  text-align:center;
+  margin:0 auto;
+  margin-top:20px;
+
+}
+
+a[class="touch"]{
+    color:#fff;
+    border:1px solid #fb6e14;
+    border-radius: 5%;
+    padding:6px;
+}
+
+a[class="touch"]:hover{
+  background:#fb6e14;
+}
+
+#features{
+  margin:0 0 0 0;
+  width:100%;
+  overflow: hidden;
+  background: url("../images/wood_1.png");
+}
+
+#features .head {
+  width:50%;
+  margin:0 auto;
+  padding:100px 0 50px 0;
+
+
+}
+
+img[class="logo"]{
+  display:block;
+  margin:0 auto;
+}
+
+#features .head .title{
+  text-align: center;
+  font-family:  "Merriweather", serif;
+  font-size:45px;
+  font-style: italic;
+  color:white;
+}
+
+#features .head p{
+  text-align: center;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  font-size: 20px;
+  color:#a99c92;
+}
+
+#features .special{
+  width:88%;
+  height:1000px;
+  margin:0 auto;
+  overflow: hidden;
+  margin-bottom: 100px
+
+}
+
+.first-col{
+  width:25%;
+  height:100%;
+  float:left;
+
+}
+.second-col{
+  width:25%;
+  height:100%;
+  float:left;
+}
+.third-col{
+  width:25%;
+  height:100%;
+  float:left;
+}
+.forth-col{
+  width:25%;
+  height:100%;
+  float:right; 
+}
+
+.first-col .first-line{
+  width:100%;
+  height:50%;
+  overflow:hidden;
+  background: url("../images/res_img_1.jpg");
+  z-index: 10;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: 257%; 
+}
+
+.first-col .second-line{
+  width: 100%;
+  height:25%;
+  background: #f5f5f5;
+  overflow: hidden;
+}
+
+.first-col .third-line{
+  width: 100%;
+  height:25%;
+  overflow:hidden;
+  background: url("../images/res_img_6.jpg");
+  z-index: 10;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 127%; 
+}
+
+.second-col .first-line{
+  width:100%;
+  height:50%;
+  overflow:hidden;
+  background: #faebcd;
+  z-index: 10;
+}
+
+.second-col .second-line{
+  width: 100%;
+  height:25%;
+  background: url("../images/res_img_7.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 127%; 
+}
+
+.second-col .third-line{
+  width: 100%;
+  height:25%;
+  overflow:hidden;
+  background:#f5f5f5 ;
+  z-index: 10; 
+}
+
+.third-col .first-line{
+  width:100%;
+  height:25%;
+  overflow:hidden;
+  background: url("../images/res_img_2.jpg");
+  z-index: 10;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:127%; 
+}
+
+.third-col .second-line{
+  width: 100%;
+  height:25%;
+  background: #f5f5f5;
+  overflow: hidden;
+/*  border:1px solid transparent;*/
+}
+
+.third-col .third-line{
+  width: 100%;
+  height:50%;
+  overflow:hidden;
+  background: url("../images/res_img_3.jpg");
+  z-index: 10;
+  background-position: center;
+  background-size:250%; 
+}
+
+.forth-col .first-line{
+  width:100%;
+  height:25%;
+  overflow:hidden;
+  background: #f5f5f5;
+  z-index: 10;
+}
+
+.forth-col .second-line{
+  width: 100%;
+  height:25%;
+  background: url("../images/res_img_8.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 150%; 
+}
+
+.forth-col .third-line{
+  width: 100%;
+  height:50%;
+  overflow:hidden;
+  background:#faebcd;
+  z-index: 10; 
+}
+
+h2[class="menu"]{
+
+ margin:40px 30px 30px 30px;
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 20px;
+ color:#303030;
+ text-align: center;
+}
+
+span[class="price"]{
+ margin:0px 30px 30px 100px;
+ font-family: 'Times New Roman', Times, serif;
+ text-align: center;
+/* margin:0 auto;*/
+ font-size: 40px;
+  color:#303030;
+}
+
+#features .category{
+  width:100%;
+  height:400px;
+  margin:0 auto;
+  overflow: hidden;
+  margin-bottom: 1px;
+  z-index:10;
+
+}
+
+ #features .category .bgimage{
+  height:400px;
+  width:100%;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  z-index: 10;
+  background: url("../images/slide_3.jpg");
+  background-position: center center;
+  background-size: 100% ;
+
+}
+
+#features .category .container{
+  top:0px; 
+  left:0;
+  width:75%;
+  margin:-320px 200px 0px 200px;
+  height:300px;
+  z-index: 12;
+
+}
+
+#features .category .container .fruit{
+  width:25%;
+  height:100%;
+  float:left;
+}
+
+#features .category .container .seafood{
+  width:25%;
+  height:100%;
+  float:left;
+}
+
+#features .category .container .vegetable{
+  width:25%;
+  height:100%;
+  float:left;
+}
+
+#features .category .container .meat{
+  width:25%;
+  height:100%;
+  float:right;
+}
+
+img[class="type"]{
+
+  z-index: 100;
+  display:block;
+  margin:0 auto;
+  border:1px solid grey;
+  border-radius: 40px;
+}
+
+p[class="type"]{
+  text-align:center;
+  font-size:32px;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  font-style:italic;
+  color:white;
+}
+
+#menu{
+  overflow:hidden;
+  margin-top:80px;
+  margin-bottom: 50px;
+}
+
+#menu .head .title{
+  text-align: center;
+  font-family:  "Merriweather", serif;
+  font-size:45px;
+  font-style: italic;
+  color:#000;
+}
+
+#menu .head p{
+
+  text-align: center;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  font-size: 20px;
+  color:#a99c92;
+  width:50%;
+  margin:0 auto;
+}
+
+#menu .menu{
+  width:80%;
+  margin:0 auto;
+  overflow:hidden;
+  height:550px;
+  margin-top:20px;
+}
+
+#menu .foot{
+  width:20%;
+  height:100px;
+  margin:0 auto;
+
+}
+#menu .menu .drinks{
+  width:50%;
+  float:left;
+  height:100%;
+}
+
+#menu .menu .steak{
+  width:50%;
+  float:right;
+  height:100%;
+}
+
+#menu .menu .drinks .logo, #menu .menu .steak .logo{
+  width:100%;
+  height:100px;
+
+}
+#menu .menu .drinks .logo .img, #menu .menu .steak .logo .img{
+  width:20%;
+  float:left;
+}
+
+#menu .menu .drinks .logo .title, #menu .menu .steak .logo .title{
+  width:80%;
+  float:right;
+  font-style: italic;
+}
+
+.menu1, .menu2, .menu3, .menu4{
+  width:90%;
+  height:17%;
+border-bottom:1px solid #E8E8E8;
+}
+
+.left{
+  width:23%;
+  height:80%;
+  float:left;
+  line-height:4;
+  overflow:hidden;
+  margin-right:50px;
+}
+
+.middle{
+  width:50%;
+  height:90%;
+  float:left;
+  line-height:4;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  color:#a99c92;
+  font-size: 20px;
+}
+
+.right{
+  width:15%;
+  height:90%;
+  float:right;
+  line-height:4;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  color: #fb6e14;
+}
+
+img[class="small"]{
+  width:100%;
+  height:100px;
+}
+
+#menu .foot p[class="2"]{
+  font-family:Impact, Charcoal, sans-serif;
+  text-align:center;
+  margin:0 auto;
+}
+
+a[class="moremenu"]{
+    color:#fb6e14;
+    border:1px solid #fb6e14;
+    border-radius: 5%;
+    padding:6px;
+    font-family:Impact, Charcoal, sans-serif;
+
+}
+
+a[class="moremenu"]:hover{
+  background:#fb6e14;
+  color:white;
+}
+
+#events {
+  height:900px;
+  width:100%;
+  background-repeat: no-repeat;
+  background: url("../images/wood_1.png");
+  background-position: center center;
+  background-size: 100% ;
+
+}
+
+ #events .bgimage{
+  height:900px;
+  width:100%;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  background: url("../images/slide_2.jpg");
+  background-position: center center;
+  background-size: 100% ;
+
+}
+
+#events .head{ 
+  width:80%;
+  margin: 0 auto;
+  height:80%;
+  margin:-800px 150px 0px 150px;
+}
+
+#events .head .title{
+  text-align: center;
+  font-family:  "Merriweather", serif;
+  font-size:45px;
+  font-style: italic;
+  color:white;
+}
+
+#events .head p{
+  text-align: center;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  font-size: 20px;
+  color:#a99c92;
+  width:60%;
+  display: block;
+  margin: 0 auto;
+}
+
+#events .events{
+
+  width:80%;
+  margin:0 auto;
+  height:50%;
+  margin:-400px 120px 0px 150px;
+
+}
+
+#events .events .event1{
+  height:80%;
+  width:29%;
+  float:left;
+  margin-right:42px;
+  background: white;
+  opacity: 1;
+
+}
+
+#events .events .event2{
+  height:80%;
+  width:29%;
+  float:left;
+  margin-right:42px;
+  background: white;
+}
+
+#events .events .event3{
+  height:80%;
+  width:29%;
+  float:left;
+  margin-right:42px;
+  background: white;
+}
+
+.inner{
+  width:80%;
+  height:80%;
+  margin:0 auto;
+  border:3px solid #e6e6e6;
+  margin-top:30px;
+}
+
+#events .events .tab{
+  margin-top: 100px;
+}
+
+#events .events h2{
+  text-align: center;
+  margin-top: 20px;
+  font-style: italic;
+
+}
+
+#events .events p{
+  margin:0 auto;
+  width:70%;
+  text-align:center;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  color:#a99c92;
+}
+
+a[class="more"]{
+    color:#fb6e14;
+    border:1px solid #fb6e14;
+    border-radius: 5%;
+    padding:6px;
+    font-family:Impact, Charcoal, sans-serif;
+
+}
+
+a[class="more"]:hover{
+  background:#fb6e14;
+  color:white;
+}
+
+#reservation .head .title{
+  text-align: center;
+  font-family:  "Merriweather", serif;
+  font-size:45px;
+  font-style: italic;
+  color:#000;
+}
+
+#reservation .head p{
+
+  text-align: center;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  font-size: 20px;
+  color:#a99c92;
+  width:50%;
+  margin:0 auto;
+}
+
+#reservation{
+  width:100%;
+  overflow:hidden;
+  margin-top:80px;
+  margin-bottom: 10px;
+
+}
+
+#reservation .reservation{
+  overflow:hidden;
+  width:80%;
+  margin:0 auto;
+  margin-top:50px;
+  margin-bottom: 100px;
+}
+
+#reservation .reservation .contact{
+  width:50%;
+  float:left;
+  height:400px;
+}
+
+#reservation .reservation .reserve{
+  width:50%;
+  float:left;
+  height:400px;
+}
+
+#reservation .reservation h2{
+  font-style: italic;
+}
+
+.line2, .line3, .line4, .line5{
+  width:90%;
+  height:17%;
+border-bottom:1px solid #E8E8E8;
+}
+
+.me{ 
+  width:70%;
+  height:90%;
+  margin-left:20px;
+  float:left;
+  line-height:4;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  color:#a99c92;
+  font-size: 20px;
+}
+
+input{
+  width:80%;
+  height:40px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  padding-left:10px;
+}
+select{
+  width:82.5%;
+  height:44px;
+  margin-bottom: 10px;
+  padding-left:10px;
+  font-size: 18px;
+  color: #999;
+}
+
+
+
+a[class="order"]{
+    color:#fb6e14;
+    border:1px solid #fb6e14;
+    border-radius: 5%;
+    padding:6px;
+    font-family:Impact, Charcoal, sans-serif;
+
+}
+
+a[class="order"]:hover{
+  background:#fb6e14;
+  color:white;
+}
+
+p[class="2"]{
+
+  margin-top:30px;
+  margin-left:150px;
+}
+
+p[class="page"]{
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  font-size:45px;
+  color:#5e493a;
+  width:60%;
+}
+p[class="author"]{
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  font-size:25px;
+  color:#a99c92;
+  width:50%;
+  line-height: 4;
+
+}
+
+#sayings{
+  width:1200px;
+  overflow:hidden;
+  margin: 0 auto;
+  height:400px;
+  margin-top:100px;
+}
+
+#list{
+  width:600%;
+  height:300px;
+  position: absolute;
+  z-index: 1;
+}
+
+#list .page{
+  float:left;
+  width:1100px;
+  margin-right: 200px;
+}
+
+#buttons{
+  position:relative;
+  height:20px;
+  width:200px;
+  z-index:2;
+  bottom: :20px;
+  left:500px;
+  top:300px;
+}
+
+#buttons span { 
+    cursor: pointer; 
+    float: left; 
+    border: 1px solid #fff; 
+    width: 15px; 
+    height: 15px; 
+    border-radius: 50%; 
+    background: #999; 
+    margin-right: 10px;
+}
+#buttons .on {  
+    background: orangered;   /*选中的按钮样式*/
+}
