@@ -19,10 +19,12 @@ function loadSlide(){
   } 
 }
 
+
 //加载ABOUT中左侧高度随右侧自适应变化
 function loadHeight(){
-document.getElementById("about-left").style.height=document.getElementById("about-right").offsetHeight+"px"; 
+document.getElementById("about-left").style.height=document.getElementById("about-right").offsetHeight+"px";  
 }
+
 
 //轮播
 function loadturn(){
@@ -109,14 +111,42 @@ function loadturn(){
 }
 
 
+//更改标题透明度
+function changeOpacity(){
+ // var abouttop= document.getElementById("about").marginTop;
+  var h1=document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
+ // alert(abouttop);
+ // var h1top= document.getElementById("bigtitle").offsetTop;
+
+//  var top =abouttop-h1top;
+  if(h1<500){
+    var op=1-h1/500;
+    document.getElementById("home-text").style.opacity=op;
+    document.getElementById("home-text").style.display="block";
+  }else if(h1>500){
+    document.getElementById("home-text").style.display="none";
+  }
+}
+
+//设置导航栏在最上方
+function setNav(){
+  var h=document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
+  if (h>940){
+     document.getElementById("nav").className="nav-new";
+  }else if(h<940){
+     document.getElementById("nav").className="nav";
+  }
 
 
+}
 
 
 function load(){
 	loadSlide();
 	setInterval(loadHeight,20);
 	loadturn();
+  setInterval(changeOpacity,20);
+  setInterval(setNav,20);
 
 }
 
