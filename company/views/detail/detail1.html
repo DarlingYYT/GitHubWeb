@@ -1,0 +1,152 @@
+<div class="detail-part">
+	<div class="bg-color" >
+		<div class="container">
+			<div class="row">
+				<ol class="breadcrumb" style="margin-top:12px">
+					<li>
+						<a ui-sref="/">
+							<span class="glyphicon glyphicon-home"> 首页</span>
+						</a>
+					</li>
+					<li>
+						<a ui-sref="product.page1">产品</a>
+					</li>
+					<li>智能手表</li>
+				</ol>
+			</div>
+		</div>
+	</div>
+
+	<div class="container" style="margin-top:50px;">
+		<div class="row">
+			<div class="col-md-5 col-md-offset-1">
+				<div class="carousel slide" id="detail-slide" data-interval="10000" data-ride="carousel">
+			        <ol class="carousel-indicators">
+			          <li data-target="#detail-slide" data-slide-to="0" class="active"></li>
+			          <li data-target="#detail-slide" data-slide-to="1"></li>
+			          <li data-target="#detail-slide" data-slide-to="2"></li>
+			          <li data-target="#detail-slide" data-slide-to="3"></li>
+			        </ol>
+			        <div class="carousel-inner">
+			          <div class="active item">
+			            <img src="images/de-1.jpg" alt="de-1" width="100%">
+			          </div>
+			          <div class="item">
+			            <img src="images/de-2.jpg" alt="de-2" width="100%">
+			          </div>
+			          <div class="item">
+			            <img src="images/de-3.jpg" alt="de-3" width="100%">
+			          </div>
+			          <div class="item">
+			            <img src="images/watch1.jpg" alt="de-4" width="100%">
+			          </div>
+			        </div>
+			        <!-- <a class="carousel-control left" href="#detail-slide" data-slide="prev">
+			          <span class="glyphicon glyphicon-chevron-left"></span>
+			        </a>
+			        <a class="carousel-control right" href="#detail-slide" data-slide="next">
+			          <span class="glyphicon glyphicon-chevron-right"></span>
+			        </a> -->
+
+			      </div>
+			</div>
+			<div class="col-md-6">
+				<div class="container">
+					<h2>儿童手表</h2>
+					<div class="price-title" >
+						<h2 style="color:#f96868">999.00元</h2>
+					</div>
+					<div style="margin-top:20px">
+						<p class="label">选择颜色</p><br>
+						<button class="color" ng-click="change1()" ng-class="color1">静谧蓝</button>
+						<button class="color" ng-click="change2()" ng-class="color2">蜜桃粉</button><br>
+					</div>
+					<div style="margin-top:20px">
+						<p class="label">数量</p><br>
+						<div class="">
+							<button class="btn btn-primart" ng-click="subtract(1)">-</button>
+							<div  style="display:inline">&nbsp&nbsp&nbsp&nbsp&nbsp
+								<b>{{counter}}</b>&nbsp&nbsp&nbsp&nbsp&nbsp
+							</div>
+							<button class="btn btn-primart" ng-click="add(1)">+</button>
+						</div>
+					</div>
+					<div style="margin-top:20px">
+						<button class="buy">&nbsp&nbsp&nbsp立即购买&nbsp&nbsp&nbsp</button>
+						<button class="save">&nbsp&nbsp&nbsp<span class="glyphicon glyphicon-shopping-cart">&nbsp加入购物车&nbsp&nbsp</span></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<br>
+	<div class="bg-color">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9">
+						<div class="white-box">
+							<div class="page-header">
+								<ul class="nav nav-tabs ">
+									<li class="leftnav"><a ng-click="blue1()" ng-class="b1">详情</a></li>
+									<li class="leftnav"><a ng-click="blue2()" ng-class="b2">参数</a></li>
+								</ul>
+							</div>
+							<div class="page1" ng-show="p1">
+								<img src="images/detail-1.jpg" style="width:100%;margin-bottom:20px">
+								<img src="images/detail-2.jpg" style="width:100%;margin-bottom:20px">
+								<img src="images/detail-3.jpg" style="width:100%;margin-bottom:20px">
+								<img src="images/detail-4.jpg" style="width:100%;margin-bottom:20px">
+								<img src="images/detail-5.jpg" style="width:100%;margin-bottom:20px">
+								<img src="images/detail-6.jpg" style="width:100%;margin-bottom:20px">
+							</div>
+							<div class="page2" ng-show="p2">
+								<table class="table table-striped" style="font-size:18px">
+									<tbody>
+										<tr class="firstRow"><td width="524">定位精度</td><td width="524">室内20米，室外5米</td></tr><tr><td width="524">摄像头</td><td width="524">200万像素</td></tr><tr><td width="524">手表网络支持</td><td width="524">GSM 900/1800 WCDMA 2100</td></tr><tr><td width="524">定位能力</td><td width="524">GPS、北斗、基站、Wi-Fi、重力感应、PDR</td></tr><tr><td width="524">电池</td><td width="524">500mAh凝胶锂聚合物电池，支持快充</td></tr><tr><td width="524">屏幕规格</td><td width="524">1.3英寸，240×240分辨率 IPS 彩色电容触摸屏</td></tr><tr><td width="524">处理器</td><td width="524">MT2601 1.2GHz双核Cortex-A7 处理器</td></tr><tr><td width="524">手机APP支持</td><td width="524">iOS7.0以上系统，Android4.0 以上系统</td></tr><tr><td width="524">存储</td><td width="524">512MB内存 4GB存储空间</td></tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						</div>
+						<div class="col-md-3">
+							<div class="white-box">
+								<div class="page-header">
+									<h4>热门推荐</h4>
+								</div>
+								<div style="text-align:center">
+									<div class="product" >
+			              			  <a ui-sref="detail" title="Apple Watch Sport">
+			               			   <img src="images/watch2.jpg" style="width:100%">
+			             			   </a>
+			          			      <h4>
+			              			    <a ui-sref="detail" class="right">Apple Watch Sport</a>
+			               				   <p class="price">2288.00元</p>
+			              			  </h4>
+			             			 </div>
+								<div class="product">
+			                <a ui-sref="detail" title="Gear VR">
+			                  <img src="images/VR1.jpg" style="width:100%" >
+			                </a>
+			                <h4>
+			                  <a ui-sref="detail" class="right">Gear VR</a>
+			                  <p class="price">1288.00元</p>
+			                </h4>
+			              </div>
+			              <div class="product" >
+			                <a href="" title="Pico Neo">
+			                  <img src="images/VR2.jpg" style="width:100%" >
+			                </a>
+			                <h4>
+			                  <a href="" class="right">Pico Neo</a>
+			                  <p class="price">3399.00元</p>
+			                </h4>
+			              </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</div>
+

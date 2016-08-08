@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-CN" ng-app = "myApp">
+  <head>
+    <title>科技公司</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+    <div class="navbar all-nav" role="navigation">
+      <div class="container">
+        <div class="row top-row">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#" class="navbar-brand" title="科技公司">
+              <div style="margin-top:-38px">
+                <br>
+                <img src="./images/logo.png" alt="科技公司" title="科技公司">
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="collapse navbar-collapse">
+          <div class="navbar-right navbar-justified" style="width:150px">
+            <button class="btn btn-primary navbar-btn" ui-sref="signup" style="width:45%">注册</button>
+            <button class="btn btn-default navbar-btn"  ui-sref="login" style="width:45%">登录</button>
+          </div>
+          <ul class="nav navbar-nav navbar-right" style="width:300px">
+            <li ui-sref-active="active" ui-sref="/" style="width:23%"><a>首页</a></li>
+            <li class="dropdown" style="width:23%">
+              <a ui-sref="product.page1" class="dropdown-toggle" data-hover="dropdown">产品<b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+              	<li style="margin:10px"><a ui-sref="product.page1">智能手表</a></li>
+                <li style="margin:10px"><a ui-sref="product.page1">智能眼镜</a></li>
+              	<li style="margin:10px"><a ui-sref="product.page1">体感车</a></li>
+              	<li style="margin:10px"><a ui-sref="product.page1">无人机</a></li>
+              </ul>
+            </li>
+            <li ui-sref-active="active" ui-sref="support" style="width:23%"><a>支持</a></li>
+            <li ui-sref-active="active" ui-sref="about" style="width:23%"><a>关于</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>   
+    <div ui-view="">
+    </div>
+    <div class="footnav">
+      <hr>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 col-sm-3">
+            <h4><a ui-sref="product.page1">产品</a></h4>
+            <ul class="list-unstyled">
+              <li>
+                <p>智能手表</p>
+              </li>
+              <li>
+                <p>智能眼镜</p>
+              </li>
+              <li>
+                <p>体感车</p>
+              </li>
+              <li>
+                <p>无人机</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-sm-3">
+            <h4><a ui-sref="support">支持</a></h4>
+            <ul class="list-unstyled">
+              <li>
+                <p >售后政策</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-sm-3">
+            <h4><a ui-serf="blog">博客</a></h4>
+            <ul class="list-unstyled">
+              <li>
+                <p>产品资讯</p>
+              </li>
+              <li>
+                <p>行业动态</p>
+              </li>
+              <li>
+                <p>国际资讯</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-sm-3">
+            <h4><a ui-sref="about">关于</a></h4>
+            <ul class="list-unstyled">
+              <li>
+                <p>关于我们</p>
+              </li>
+              <li>
+                <p>联系我们</p>
+              </li>
+              <li>
+                <p>加入我们</p>
+              </li>
+              <li>
+              	<p>意见反馈</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <h4>
+              <p style="font-size:26px">400-000-000</p>
+              <p style="font-size:15px ;color:#999">周一至周五 08:30~17:30</p>
+            </h4>
+          </div>
+        </div>
+        
+      </div>
+    <br><br><hr>	
+    </div>
+    <div class="footer">
+      <div class="container" style="text-align:center;color:#999">
+        <br>
+        <p>科技公司 版权所有 © 2008-2016 湘ICP备8888888 </p>
+        <p>本页面内容为网站演示数据，前台页面内容都可以在后台修改。</p>
+        <p>Powered by YYT~<span class="glyphicon glyphicon-heart"></span>~</p>
+        <br><br>
+      </div>
+    </div>
+
+    
+    
+    <script src="./bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="./bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="./bower_components/angular/angular.min.js"></script>
+    <script src="./bower_components/angular-animate/angular-animate.min.js"></script>
+    <script src="./bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+    <script src="./bower_components/angular-cookies/angular-cookies.min.js"></script>
+    <script src="./bower_components/angular-messages/angular-messages.min.js"></script>
+    <script src="./bower_components/angular-resource/angular-resource.min.js"></script>
+    <script src="./bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="scripts/app.js"></script>	
+    <script src="scripts/controllers/main.js"></script>
+    <script src="scripts/controllers/product.js"></script>
+	  <script src="scripts/controllers/about.js"></script>
+  	<script src="scripts/controllers/support.js"></script>
+    <script src="scripts/controllers/detail.js"></script>
+    <script src="scripts/controllers/login.js"></script>
+    <script src="scripts/controllers/signup.js"></script>
+  </body>
+</html>
+

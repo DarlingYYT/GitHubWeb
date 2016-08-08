@@ -1,0 +1,203 @@
+<div>
+      <div class="carousel slide" id="top-slide" data-interval="5000" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#top-slide" data-slide-to="0" class="active"></li>
+          <li data-target="#top-slide" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="active item">
+            <img src="images/slide1.png" alt="img1" width="100%">
+          </div>
+          <div class="item">
+            <img src="images/slide2.png" alt="img2" width="100%">
+            <div class="carousel-caption">
+              <h2 class="animation-slide-top visible" data-animate="slide-top" data-plugin="appear">Know You Better</h2>
+              <h1>懂你，总会多一点</h1>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control left" href="#top-slide" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="carousel-control right" href="#top-slide" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+
+      </div>
+</div>   
+    <div class="company-service company-body">
+      <div class="container">
+        <div class="title">
+          <h3 data-plugin="appear" data-animate="slide-top" data-repeat="false">科技改变生活</h3>
+          <p class="desc animation-fade appear-no-repeat" data-plugin="appear" data-animate="fade" data-repeat="false">科技正用你无法想象的速度在改变世界，改变人们的生活</p>
+        </div>
+        <div class="row">
+          <br>
+          <div class="col-md-3">
+            <span class="glyphicon glyphicon-road" style="font-size:40px" ></span>
+            <h4>无人驾驶</h4>
+            <p>无人驾驶车将改变人们的出行方式。据估计，无人驾驶车可将每年因交通事故死亡的人数（120万）削减一半。</p>
+          </div>
+          <div class="col-md-3">
+            <span class="glyphicon glyphicon-eye-open" style="font-size:40px" ></span>
+            <h4>虚拟现实</h4>
+            <p>简称VR，创建和体验虚拟世界，有一天你也会有专属自己的虚拟人生。</p>
+          </div>
+          <div class="col-md-3">
+            <span class="glyphicon glyphicon-tower" style="font-size:40px" ></span>
+            <h4>机器人</h4>
+            <p>未来将会有更多给人们生活带来改变的机器人，甚至机器人会有自己的情感。</p>
+          </div>
+          <div class="col-md-3">
+            <span class="glyphicon glyphicon-plane" style="font-size:40px" ></span>
+            <h4>无人机</h4>
+            <p>人们已经在利用无人机寻找等待救援的远足者和滑雪者，拍摄房屋航空图像，以及调查考古遗址。</p>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+      </div>
+    </div> 
+    <div class="company-product company-body">
+      <div class="container" >
+        <div class="title">
+          <h3 data-plugin="appear" data-animate="slide-top" data-repeat="false">科技产品</h3>
+          <p class="desc animation-fade appear-no-repeat" data-plugin="appear" data-animate="fade" data-repeat="false">我们致力于让科技改善人们的生活</p>
+        </div>
+        <br><br>
+        <div class="sub-nav">
+        <ul class="nav nav-default nav-justified" role="tablist">
+          <li class="active" role="presentation">
+          <a  title="全部" ng-class="act0" ng-click="all()">全部</a>
+          </li>
+          <li class="active" role="presentation">
+            <a  title="智能手表" ng-class="act1"  ng-click="watch()">智能手表</a>
+          </li>
+          <li class="active" role="presentation">
+            <a title="智能眼镜" ng-class="act2"  ng-click="glasses()">智能眼镜</a>
+          </li>
+          <li class="active" role="presentation">
+            <a title="体感车" ng-class="act3" ng-click="car()">体感车</a>
+          </li>
+          <li class="active" role="presentation">
+            <a title="无人机" ng-class="act4" ng-click="plane()">无人机</a>
+          </li>
+        </ul>
+        </div>
+        <div class="productlist">
+            <div class="col-md-3" ng-show="num1" >
+              <div class="product">
+                <a ui-sref="detail" title="儿童手表">
+                  <img src="images/watch1.jpg" style="width:100%" >
+                </a>
+                <h4>
+                  <a ui-sref="detail" >儿童手表</a>
+                  <p class="price">999.00元</p>
+                </h4>
+              </div>
+            </div>
+            <div class="col-md-3" ng-show="num1">
+              <div class="product" >
+                <a ui-sref="detail"  title="Apple Watch Sport">
+                  <img src="images/watch2.jpg" style="width:100%" >
+                </a>
+                <h4>
+                  <a ui-sref="detail" >Apple Watch Sport</a>
+                  <p class="price">2288.00元</p>
+                </h4>
+              </div>
+            </div>
+            <div class="col-md-3"  ng-show="num2">
+              <div class="product">
+                <a ui-sref="detail" title="Gear VR">
+                  <img src="images/VR1.jpg" style="width:100%" >
+                </a>
+                <h4>
+                  <a ui-sref="detail" >Gear VR</a>
+                  <p class="price">1288.00元</p>
+                </h4>
+              </div>
+            </div>
+            <div class="col-md-3" ng-show="num2">
+              <div class="product" >
+                <a ui-sref="detail" title="Pico Neo">
+                  <img src="images/VR2.jpg" style="width:100%" >
+                </a>
+                <h4>
+                  <a ui-sref="detail" >Pico Neo</a>
+                  <p class="price">3399.00元</p>
+                </h4>
+              </div>
+            </div>
+            <div class="col-md-3"  ng-show="num3">
+              <div class="product">
+                <a ui-sref="detail" title="九号平衡车">
+                  <img src="images/car.jpg" style="width:100%" >
+                </a>
+                <h4>
+                  <a ui-sref="detail">九号平衡车</a>
+                  <p class="price">1999.00元</p>
+                </h4>
+              </div>
+            </div>
+            <div class="col-md-3" ng-show="num4">
+              <div class="product">
+                <a ui-sref="detail" title="Phantom 4">
+                  <img src="images/plane1.jpg" style="width:100%" >
+                </a>
+                <h4>
+                  <a ui-sref="detail">Phantom 4</a>
+                  <p class="price">9999.00元</p>
+                </h4>
+              </div>
+            </div>
+            <div class="col-md-3"  ng-show="num1">
+              <div class="product">
+                <a ui-sref="detail" title="儿童手表">
+                  <img src="images/watch1.jpg" style="width:100%" >
+                </a>
+                <h4>
+                  <a ui-sref="detail">儿童手表</a>
+                  <p class="price">999.00元</p>
+                </h4>
+              </div>
+            </div>
+            <div class="col-md-3" ng-show="num1">
+              <div class="product">
+                <a ui-sref="detail" title="儿童手表">
+                  <img src="images/watch1.jpg" style="width:100%" >
+                </a>
+                <h4>
+                  <a ui-sref="detail">儿童手表</a>
+                  <p class="price">999.00元</p>
+                </h4>
+              </div>
+            </div>
+          </div>        	
+      </div>
+    <br><br><br>
+    </div>
+    <div class="company-about company-body">
+      <div class="container">
+        <div class="title">
+          <h3 data-plugin="appear" data-animate="slide-top" data-repeat="false">关于我们</h3>
+          <p class="desc animation-fade appear-no-repeat" data-plugin="appear" data-animate="fade" data-repeat="false">我们致力于让科技改善人们的生活</p>
+        </div>
+        <div class="about-body company-body">
+          <div class="page-header">
+            <br>
+            <img src="images/about.jpg" style="width:100%">
+            <br><br>
+          </div>
+          <div class="about-content">
+            <p>某科技公司是一个诞生于2013年机器人浪潮来袭前际，总部位于“硬件之都”中国深圳。</p>
+            <p>我们是一群热衷于智能机器人的极客、设计师和发烧友，对未来充满无限创想、野心和激情。“在最好的时光里，撒野去”是我们所倡导的品牌文化，号召属于这个时代的年轻人，不羁束缚、随心逐梦！</p>
+            <p>比普通创客幸运一些的是，我们成立之初，就在语义技术、图数据管理和供应链方面拥有比较丰富的经验和积累，并且、汇聚整合了完善的生产链条和多元的渠道资源，我们愿意拥抱大胆有趣的产品理念，为用户创造更多的惊喜！</p>
+          </div>
+        </div>
+      </div>
+    <br><br>
+    </div>
+ 	

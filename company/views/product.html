@@ -1,0 +1,49 @@
+<div class="product-part">
+	<div class="product-title" style="background-color:#62a8ea">
+		<br>
+		<h1>产品</h1>
+		<br>
+	</div>
+	<div class="container">
+	<br>
+  		<div class="sub-nav" style="width:50%;margin:0 auto">
+       			<ul class="nav nav-default nav-justified" role="tablist" >
+          			<li role="presentation">
+          				<a  title="全部" ng-click="all() ">全部</a>
+          			</li>
+          			<li role="presentation">
+            			<a  title="智能手表" ng-click="watch()">智能手表</a>
+         			</li>
+          			<li role="presentation">
+						<a title="智能眼镜" ng-click="glasses()">智能眼镜</a>
+					</li>
+					<li role="presentation">
+						<a title="体感车" ng-click="car()">体感车</a>
+					</li>
+					<li role="presentation">
+						<a title="无人机" ng-click="plane()">无人机</a>
+					</li>
+				</ul>
+		</div>
+		<br>
+	</div>
+		<div class="productlist">
+	        <div ui-view="productList">
+	        </div>
+	        <br>   
+	        <div >   
+	
+	      		<ul class="pagination" >
+					<li><a ui-sref="product.page1">&laquo;</a></li>
+					<li><a ui-sref="product.page1">1</a></li>
+					<li><a ui-sref="product.page2">2</a></li>
+					<li><a ui-sref="product.page2">&raquo;</a></li>
+	    		</ul>
+	      	</div>
+	      	</div>
+
+	    </div>
+
+	    
+	</div>
+</div>
